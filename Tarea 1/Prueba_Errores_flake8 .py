@@ -8,7 +8,7 @@ def contar_vocales(palabra):
 
     # :param palabra: texto a evaluar
     # :return: número de vocales
-    
+
     vocales = "aeiouAEIOU"
     contador = 0
 
@@ -18,8 +18,9 @@ def contar_vocales(palabra):
 
     return contador
 
+
 def main():
-    
+
     # Función principal.
     palabra = "Ingenieria"
     cantidad = contar_vocales(palabra)
